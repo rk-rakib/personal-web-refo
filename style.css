@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+.flexiable-container{
+    display: flex;
+    margin-bottom: 100px; 
+}
+#top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat;
+}
+#dream-rafo{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.web-rafo{
+    width: 50%;
+    padding: 5px;
+    margin-left: 30px;
+}
+.web-rafo img{
+    width: 40%;
+}
+span{
+    color:brown;
+}
+.web-rafo  h1{
+    font-family: 'Tourney', cursive;
+    font-size: 50px;
+}
+.line-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px;
+    border-radius: 5px;
+}
+.shado{
+    width: 40%;
+    box-shadow: 10px 10px 20px orange;
+    padding: 3%;
+    border-radius: 10px;
+    border-left: 3px solid;
+    border-image: linear-gradient(red,green);
+    border-image-slice: 1;
+}
+.font-exprience{
+    font-size: 30px;
+}
+.exprience{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
